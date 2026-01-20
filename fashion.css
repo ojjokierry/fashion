@@ -1,0 +1,312 @@
+.body {
+    background-color: rgb(12, 17, 17);
+}
+#body {
+    background-color: rgb(12, 17, 17);
+    font-family: "Bodoni Moda", serif;
+}
+#bod26 {
+    background-color: rgb(12, 17, 17);
+}
+#vis {
+    background-image: radial-gradient( rgb(58, 56, 56), rgb(216, 252, 146), rgb(58, 56, 56), rgb(243, 91, 117), rgb(48, 46, 46), yellow, rgb(46, 44, 44), rgb(136, 253, 3), rgb(58, 56, 56));
+    background-size: 100% 50%;
+    min-height: 100vh;
+    animation: bg-animation 10s infinite alternate;
+}
+@keyframes bg-animation { 
+    0% { 
+    background-position: 30% 0%;
+ } 
+ 100% { 
+    background-position: 50% 70%; 
+ }
+}
+#mainpage {
+    position:absolute;
+    background-image: url("gr.jpeg");
+    background-size: cover;
+    top: 40%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    width: 300px;
+    height: 400px;
+}
+#mainpage:hover {
+    box-shadow: 0 0 5px rgb(245, 238, 149),
+                0 0 20px rgb(238, 248, 143),
+                0 0 60px rgb(221, 245, 87),
+                0 0 100px rgb(184, 209, 72)
+}
+h1 {
+    text-align: center;
+    font-family: "BBH Bartle", sans-serif;
+    font-size: 70px;
+    color:rgb(245, 238, 149);
+}
+.t:hover {
+    transform: scale(1.1);
+}
+#line1 {
+    position: absolute;
+    background-color: aliceblue;
+    width: 510px;
+    height: 1px;
+    left: 10%;
+    top: 64.5%;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "Bodoni Moda", serif;
+}
+#line2 {
+    position: absolute;
+    background-color: aliceblue;
+    width: 450px;
+    height: 1px;
+    right: 15%;
+    top: 55%;
+    text-align: right;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "Bodoni Moda", serif;
+}
+#s {
+    position: absolute;
+    top: 90%;
+    left: 36%;
+    font-size: 40px;
+    font-family: "Bodoni Moda", serif;
+    color: rgb(245, 238, 149);
+}
+.cart {
+    position: relative;
+}
+#cart {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 600px;
+    background-color: rgb(207, 252, 165);
+    top: 10%;
+    left: 20%;
+    font-family: "Bodoni Moda", serif;
+    color: rgb(77, 30, 30);
+    font-size: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+#item1 {
+    background-image: url("product.jpeg");
+    background-size: cover;
+    width: 150px;
+    height: 200px;
+    left: 260px;
+    top: 150px;
+    border: 5px double yellowgreen;
+}
+#item2 {
+    background-image: url("another.jpeg");
+    background-size: cover;
+    width: 150px;
+    height: 200px;
+    top: 200px;
+    left: 260px;
+    border: 5px double yellowgreen;
+}
+#lines {
+    position: absolute;
+    width: 700px;
+    height: 1px;
+    background-color: darkslategrey;
+    top: 120px;
+    left: 300px;
+}
+.check {
+    position: absolute;
+    background-color: rgb(240, 105, 105);
+    top: 700px;
+    left: 900px;
+    bottom: 50px;
+    width: 100px;
+    height: 40px;
+    bottom: 50px;
+    font-family: "Bodoni Moda", serif;
+    border-radius: 14px;
+    box-shadow: 0 10px rgb(43, 37, 37),
+}
+.first {
+    position: relative;
+    height: 400px;
+    width: 200px;
+    box-shadow: -5px 5px 10px orange, -15px 15px 20px yellow, -20px 20px 25px rgb(58, 230, 135);
+}
+#f1 {
+    z-index: 1;
+    background-image: url("f1.jpeg");
+    background-size: cover;
+    top: 100px;
+    left: 150px;
+}
+#f2 {
+    z-index: 2;
+    background-image: url("f2.jpeg");
+    background-size: cover;
+    top: -100px;
+    left: 200px;
+}
+#f3 {
+    z-index: 3;
+    background-image: url("f3.jpeg");
+    background-size: cover;
+    top: -150px;
+    left: 250px;
+}
+#f4 {
+    z-index: 4;
+    background-image: url("f4.jpeg");
+    background-size: cover;
+    left: 250px;
+}
+#f5 {
+    z-index: 5;
+    background-image: url("f5.jpeg");
+    background-size: cover;
+    top: -200px;
+    left: 200px;
+}
+#f6 {
+    z-index: 6;
+    background-image: url("f6.jpeg");
+    background-size: cover;
+    top: -250px;
+    left: 150px;
+}
+.second {
+    position: absolute;
+    height: 400px;
+    width: 200px;
+    box-shadow: 5px 5px 10px orange, 15px 15px 20px yellow, 20px 20px 25px rgb(58, 230, 150);
+}
+#f7 {
+    position: absolute;
+    z-index: 1;
+    background-image: url("f1.jpeg");
+    background-size: cover;
+    top: 100px;
+    right: 150px;
+}
+#f8 {
+    z-index: 2;
+    background-image: url("f2.jpeg");
+    background-size: cover;
+    top: 290px;
+    right: 190px;
+}
+#f9 {
+    z-index: 3;
+    background-image: url("f3.jpeg");
+    background-size: cover;
+    top: 640px;
+    right: 230px;
+}
+#f10 {
+    z-index: 4;
+    background-image: url("f4.jpeg");
+    background-size: cover;
+    right: 250px;
+    top: 1200px;
+}
+#f11 {
+    z-index: 5;
+    background-image: url("f5.jpeg");
+    background-size: cover;
+    top: 1400px;
+    right: 200px;
+}
+#f12 {
+    z-index: 6;
+    background-image: url("f6.jpeg");
+    background-size: cover;
+    top: 1750px;
+    right: 150px;
+}
+.catalogue {
+   position: absolute; 
+    top: 900px;
+    left: 540px; 
+    height: 800px;
+    width: 200px;
+    margin-bottom: 50px;
+    color: rgb(149, 248, 56);
+    font-family: "Bodoni Moda", serif;
+    font-size: 30px;
+    text-align: center;
+}
+p:hover {
+    color:rgb(129, 231, 88);
+}
+#qua {
+    position: absolute;
+    top: 235px;
+    left: 750px;
+    width: 30px;
+}
+#quan {
+    position: absolute;
+    top: 460px;
+    left: 750px;
+    width: 30px;
+}
+#h {
+    position: absolute;
+    top: 220px;
+    left: 450px;
+}
+#h1 {
+    position: absolute;
+    top: 450px;
+    left: 450px;
+}
+#items {
+    position: absolute;
+    color:crimson;
+    text-align: center;
+    left: 580px;
+    top: 130px;
+    padding-right: 40px;
+}
+#kzt {
+    position: absolute;
+    top: 450px;
+    left: 850px;
+}
+#kzt4 {
+    position: absolute;
+    top: 220px;
+    left: 850px;
+}
+#Total {
+    position: absolute;
+    top: 600px;
+    left: 850px;
+}
+input[type=search] {
+    background-color: rgb(201, 245, 158);
+    box-shadow: 0px 3px 3px yellow;
+}
+#contact {
+    position: absolute;
+    top: 300px;
+    left: 430px;
+    text-align: center;
+    background-color: rgb(174, 252, 97);
+    width: 400px;
+    height: 150px;
+    border-radius: 15px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 15px;
+    box-shadow: 0px 0px 10px rgb(161, 241, 31),
+                0px 0px 29px rgb(92, 206, 88),
+                0px 0px 40px rgb(160, 255, 7);
+}
